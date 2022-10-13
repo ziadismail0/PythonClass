@@ -1,22 +1,25 @@
 #Задание 1
 
 a = [1,0,3,4,0,6,7,8,9,0]
-def adder(A):
-	p = sum(A)
-	return p
+
+def adder(a):
+	p = sum(a)
+	a = print(p)
+	return a
 	
 	
 adder(a)
 
 #задание 2
 
-def counit(B):
+def countit(B):
 	x= B.count(0)
+	x = print(x)
 	return x
 	
-	
+print()
 countit(a)
-
+print()
 
 #задание 3
 
@@ -46,3 +49,4 @@ def pyramid(q):
 pyramid(5)
 				
 				
+
