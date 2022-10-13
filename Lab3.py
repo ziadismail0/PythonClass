@@ -3,7 +3,7 @@
 a = [1,0,3,4,0,6,7,8,9,0]
 def adder(A):
 	p = sum(A)
-	print(p)
+	return p
 	
 	
 adder(a)
@@ -12,7 +12,7 @@ adder(a)
 
 def counit(B):
 	x= B.count(0)
-	print(x)
+	return x
 	
 	
 countit(a)
